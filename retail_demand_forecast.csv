@@ -1,0 +1,85 @@
+"ProductID","ProductName","PredictionDate","PredictedDemand"
+"P1001","Basmati Rice 5kg",2026-01-01,9
+"P1001","Basmati Rice 5kg",2026-01-02,10
+"P1001","Basmati Rice 5kg",2026-01-03,12
+"P1001","Basmati Rice 5kg",2026-01-04,12
+"P1001","Basmati Rice 5kg",2026-01-05,10
+"P1001","Basmati Rice 5kg",2026-01-06,9
+"P1001","Basmati Rice 5kg",2026-01-07,9
+"P1002","Sunflower Oil 1L",2026-01-01,9
+"P1002","Sunflower Oil 1L",2026-01-02,9
+"P1002","Sunflower Oil 1L",2026-01-03,10
+"P1002","Sunflower Oil 1L",2026-01-04,11
+"P1002","Sunflower Oil 1L",2026-01-05,10
+"P1002","Sunflower Oil 1L",2026-01-06,10
+"P1002","Sunflower Oil 1L",2026-01-07,9
+"P1003","Milk 1L",2026-01-01,14
+"P1003","Milk 1L",2026-01-02,13
+"P1003","Milk 1L",2026-01-03,16
+"P1003","Milk 1L",2026-01-04,16
+"P1003","Milk 1L",2026-01-05,13
+"P1003","Milk 1L",2026-01-06,13
+"P1003","Milk 1L",2026-01-07,14
+"P1004","Bread Loaf",2026-01-01,13
+"P1004","Bread Loaf",2026-01-02,12
+"P1004","Bread Loaf",2026-01-03,12
+"P1004","Bread Loaf",2026-01-04,14
+"P1004","Bread Loaf",2026-01-05,11
+"P1004","Bread Loaf",2026-01-06,11
+"P1004","Bread Loaf",2026-01-07,12
+"P1005","Eggs 12 Pack",2026-01-01,10
+"P1005","Eggs 12 Pack",2026-01-02,9
+"P1005","Eggs 12 Pack",2026-01-03,10
+"P1005","Eggs 12 Pack",2026-01-04,10
+"P1005","Eggs 12 Pack",2026-01-05,9
+"P1005","Eggs 12 Pack",2026-01-06,9
+"P1005","Eggs 12 Pack",2026-01-07,9
+"P1006","Instant Noodles Pack",2026-01-01,12
+"P1006","Instant Noodles Pack",2026-01-02,13
+"P1006","Instant Noodles Pack",2026-01-03,16
+"P1006","Instant Noodles Pack",2026-01-04,17
+"P1006","Instant Noodles Pack",2026-01-05,13
+"P1006","Instant Noodles Pack",2026-01-06,14
+"P1006","Instant Noodles Pack",2026-01-07,14
+"P1007","Shampoo 180ml",2026-01-01,6
+"P1007","Shampoo 180ml",2026-01-02,7
+"P1007","Shampoo 180ml",2026-01-03,8
+"P1007","Shampoo 180ml",2026-01-04,8
+"P1007","Shampoo 180ml",2026-01-05,7
+"P1007","Shampoo 180ml",2026-01-06,7
+"P1007","Shampoo 180ml",2026-01-07,7
+"P1008","Laundry Detergent 1kg",2026-01-01,6
+"P1008","Laundry Detergent 1kg",2026-01-02,6
+"P1008","Laundry Detergent 1kg",2026-01-03,8
+"P1008","Laundry Detergent 1kg",2026-01-04,8
+"P1008","Laundry Detergent 1kg",2026-01-05,6
+"P1008","Laundry Detergent 1kg",2026-01-06,7
+"P1008","Laundry Detergent 1kg",2026-01-07,7
+"P1009","Biscuits Family Pack",2026-01-01,11
+"P1009","Biscuits Family Pack",2026-01-02,12
+"P1009","Biscuits Family Pack",2026-01-03,13
+"P1009","Biscuits Family Pack",2026-01-04,13
+"P1009","Biscuits Family Pack",2026-01-05,12
+"P1009","Biscuits Family Pack",2026-01-06,11
+"P1009","Biscuits Family Pack",2026-01-07,11
+"P1010","Bottled Water 1L",2026-01-01,13
+"P1010","Bottled Water 1L",2026-01-02,12
+"P1010","Bottled Water 1L",2026-01-03,13
+"P1010","Bottled Water 1L",2026-01-04,13
+"P1010","Bottled Water 1L",2026-01-05,11
+"P1010","Bottled Water 1L",2026-01-06,12
+"P1010","Bottled Water 1L",2026-01-07,12
+"P1011","Coffee 200g",2026-01-01,6
+"P1011","Coffee 200g",2026-01-02,5
+"P1011","Coffee 200g",2026-01-03,6
+"P1011","Coffee 200g",2026-01-04,6
+"P1011","Coffee 200g",2026-01-05,5
+"P1011","Coffee 200g",2026-01-06,5
+"P1011","Coffee 200g",2026-01-07,7
+"P1012","Toothpaste 150g",2026-01-01,5
+"P1012","Toothpaste 150g",2026-01-02,8
+"P1012","Toothpaste 150g",2026-01-03,8
+"P1012","Toothpaste 150g",2026-01-04,9
+"P1012","Toothpaste 150g",2026-01-05,6
+"P1012","Toothpaste 150g",2026-01-06,8
+"P1012","Toothpaste 150g",2026-01-07,7

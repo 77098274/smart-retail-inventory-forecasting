@@ -1,7 +1,7 @@
 
 # Reload the original file without changing dates
 raw_check <- read.csv(
-  "C:/Users/vishnu miruthulaa/Downloads/retail_sales.csv",
+  "retail_sales.csv",
   stringsAsFactors = FALSE,
   colClasses = "character"
 )
@@ -17,7 +17,7 @@ data <- raw_check
 
 data$SalesDate <- as.Date(
   data$SalesDate,
-  format = "%Y-%m-%d"
+  format ="%d-%m-%Y"
 )
 
 print(head(data$SalesDate))
@@ -141,7 +141,7 @@ print(names(model_data))
 # Save the prepared ML dataset
 write.csv(
   model_data,
-  "C:/Users/vishnu miruthulaa/Downloads/retail_ml_features.csv",
+  "retail_ml_features.csv",
   row.names = FALSE
 )
 
@@ -226,9 +226,8 @@ varImpPlot(
 # Save the trained model
 saveRDS(
   rf_model,
-  "C:/Users/vishnu miruthulaa/Downloads/random_forest_demand_model.rds"
+  "random_forest_demand_model.rds"
 )
-
 cat("Random Forest model trained and saved successfully!\n")
 
 
@@ -262,10 +261,9 @@ print(metrics)
 # Save evaluation metrics
 write.csv(
   metrics,
-  "C:/Users/vishnu miruthulaa/Downloads/model_metrics.csv",
+  "model_metrics.csv",
   row.names = FALSE
 )
-
 # Save actual vs predicted demand
 evaluation_results <- data.frame(
   ProductID = test_data$ProductID,
@@ -277,9 +275,10 @@ evaluation_results <- data.frame(
 
 write.csv(
   evaluation_results,
-  "C:/Users/vishnu miruthulaa/Downloads/model_evaluation_predictions.csv",
+  "model_evaluation_predictions.csv",
   row.names = FALSE
 )
+
 
 cat("Model evaluation completed successfully!\n")
 cat("Evaluation files saved in your Downloads folder.\n")
@@ -440,10 +439,12 @@ print(forecast_results)
 cat("\nTotal forecast rows:", nrow(forecast_results), "\n")
 
 # 10. Save the forecast CSV
+
 output_file <- file.path(
-  "C:/Users/vishnu miruthulaa/Downloads",
+  ".",
   "retail_demand_forecast.csv"
 )
+
 
 write.csv(
   forecast_results,
@@ -522,9 +523,10 @@ print(inventory_analysis)
 # 6. Save the results to Downloads
 write.csv(
   inventory_analysis,
-  "C:/Users/vishnu miruthulaa/Downloads/inventory_recommendations.csv",
+  "inventory_recommendations.csv",
   row.names = FALSE
 )
+
 
 cat("\nSTEP 6 COMPLETED SUCCESSFULLY!\n")
 cat("Saved: inventory_recommendations.csv\n")
@@ -565,11 +567,12 @@ p1 <- ggplot(
 print(p1)
 
 ggsave(
-  "C:/Users/vishnu miruthulaa/Downloads/demand_forecast_graph.png",
+  "demand_forecast_graph.png",
   plot = p1,
   width = 10,
   height = 6
 )
+
 
 # Check evaluation data
 if (!exists("evaluation_results")) {
@@ -596,11 +599,12 @@ p2 <- ggplot(
 print(p2)
 
 ggsave(
-  "C:/Users/vishnu miruthulaa/Downloads/actual_vs_predicted_graph.png",
+  "actual_vs_predicted_graph.png",
   plot = p2,
   width = 8,
   height = 6
 )
+
 
 
 # Check inventory analysis
@@ -627,11 +631,12 @@ p3 <- ggplot(
 print(p3)
 
 ggsave(
-  "C:/Users/vishnu miruthulaa/Downloads/inventory_restock_graph.png",
+  "inventory_restock_graph.png",
   plot = p3,
   width = 9,
   height = 6
 )
+
 
 
 
@@ -693,7 +698,7 @@ cat("\n===== INVENTORY STATUS COUNTS =====\n")
 print(status_summary)
 
 # 5. Save the final report tables
-output_folder <- "C:/Users/vishnu miruthulaa/Downloads"
+output_folder <- "."
 
 write.csv(
   metrics,
